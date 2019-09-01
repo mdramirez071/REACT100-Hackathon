@@ -24,7 +24,8 @@
     "nightmare-react-utils": "^1.0.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "unirest": "^0.6.0"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.6.1",
@@ -58,5 +59,6 @@
     "type": "git",
     "url": "https://github.com/mdramirez071/react100-hackathon.git"
   },
+  "proxy": "http://localhost:5000/",
   "license": "MIT"
 }
